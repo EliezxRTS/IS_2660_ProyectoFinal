@@ -1,0 +1,26 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Root.1234
+      MYSQL_USER: userdb
+      MYSQL_PASSWORD: User.1234
+      MYSQL_DATABASE: monhandb
+    ports:
+      - "3306:3306"
+
+  monhanapi:
+    build: ./monhanapi
+    container_name: monhanapi
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/monhandb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: Root.1234
+    ports:
+      - "8081:8080"
+ 
