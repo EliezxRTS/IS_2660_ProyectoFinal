@@ -1,0 +1,39 @@
+---------Create---------
+{
+    "name": "Zinogre",
+    "alias": "Thunder Wolf Wyvern",
+    "classification": "Wyvern",
+    "picture": null,
+    "elements": "Thunder"
+}
+
+{
+    "name": "Rathalos",
+    "classification": "Flying Wyvern"
+}
+
+{
+  "name": "Odogaron",
+  "alias": "Hellhound Wyvern",
+  "classification": "Fanged Wyvern",
+  "picture": "https://static.wikia.nocookie.net/monsterhunter/images/4/45/MHW-Odogaron_Render_001.png",
+  "elements": "Bleeding, Fire"
+}
+
+---------PartialUpdate---------
+{
+    "name": "Zinogre",
+    "classification": "Fanged Wyvern",
+    "picture": "https://static.wikia.nocookie.net/monsterhunter/images/7/7d/MHRISE-Zinogre_Render_001.png"
+}
+
+---------FullUpdate---------
+{
+  "name": "Rathalos",
+  "alias": "King of the Skies",
+  "classification": "Flying Wyvern",
+  "picture": "https://static.wikia.nocookie.net/monsterhunter/images/1/1e/Rathalos_Render_001.png",
+  "elements": "Fire, Poison"
+}
+
+---------End---------
